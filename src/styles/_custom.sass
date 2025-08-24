@@ -7,20 +7,17 @@
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 49%
+    right: 72%
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
   
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
-
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -30,3 +27,164 @@
 
 figcaption
   font-weight: normal
+
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+  @media screen and (max-width: $bp-max-lg)
+    width: 400px !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+//////////COLOR_TEXTO_BOTON_REGRESAR///////////
+.barra-avance__boton--regresar span
+  color: white !important
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #9CC8FF
+  &-2
+    background-color: #D6EDBA
+  &-3
+    background-color: #FFEB99
+  &-4
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(245, 251, 238, 1) 23%, rgba(245, 251, 238, 1) 45%, rgba(255, 245, 204, 1) 72%, rgba(255, 255, 255, 1) 100%)
+  &-5
+    background-color: #FFCC00
+  &-6
+    background-color: #D7E9FF
+  &-7
+    background-color: #ffffffb3
+  &-8
+    background-color: #D7E9FE
+  &-9
+    background-color: #E2DACC
+  &-10
+    color: #4C6929 !important
+  &-11
+    background-color: #F3F9FF
+  &-12
+    background-color: #F3F0EA
+  &-13
+    background-color: #F4F9FF
+  &-14
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 245, 204, 1) 30%, rgba(255, 245, 204, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-15
+    background-color: #9AD354
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+  
+///////Full Width Background///////////////////
+.bg-full-width, .bg-full-width-2
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width
+  background-size: cover
+.bg-full-width-2
+  background-size: contain !important
+
+///////////FondoImg//////////////////
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+  &-2
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+  
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  color: white
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #AF15E8 !important
+  color: white
+.acordion__activo
+  background-color: #D6EDBA!important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FFCC00
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -15px
+  width: 50px
+  bottom: -10px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #F3F0EA
