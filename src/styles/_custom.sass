@@ -79,6 +79,12 @@ figcaption
     background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 245, 204, 1) 30%, rgba(255, 245, 204, 1) 70%, rgba(255, 255, 255, 1) 100%)
   &-15
     background-color: #9AD354
+  &-16
+    background-color: #4C6929
+    &:hover
+      background-color: #FFEB99
+      h4, p
+        color: $color-sistema-texto !important
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -107,7 +113,7 @@ figcaption
     background-position: bottom
     background-repeat: no-repeat
     background-size: cover
-  &-2
+  //&-2
     background-image: url("../assets/curso/bg2.svg") !important
     background-position: bottom
     background-repeat: no-repeat
@@ -188,3 +194,9 @@ figcaption
   margin-bottom: 0
 .tabs-c__content-item
   background-color: #F3F0EA
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #EBF6DD
+.tabs-b__tab
+  background-color: #D6EDBA
