@@ -102,34 +102,34 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Estado " :icono="require('@/assets/componentes/5.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Estado 
             p.mb-0 A través de ministerios, gobernaciones, alcaldías y entidades especializadas, tiene la responsabilidad de garantizar derechos, gestionar recursos y coordinar acciones para el bienestar colectivo.
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/10.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Gremios" :icono="require('@/assets/componentes/6.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Gremios
             p.mb-0 Representan sectores productivos como agricultura, ganadería, comercio e industria. Defienden sus intereses y buscan influir en decisiones económicas y productivas que los afectan.
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/11.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Empresas" :icono="require('@/assets/componentes/7.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Empresas
             p.mb-0 Influyen en políticas económicas, laborales, ambientales y de inversión. Su impacto puede ser positivo si promueven desarrollo sostenible, o conflictivo si priorizan intereses privados.
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/12.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Organizaciones de la sociedad civil " :icono="require('@/assets/componentes/8.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Organizaciones de la sociedad civil 
             p.mb-0 Cumplen funciones de acompañamiento, formación, vigilancia y defensa de derechos. Su cercanía al territorio les permite proponer soluciones desde la realidad local.
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/13.png', alt='Texto que describa la imagen')
     
@@ -315,7 +315,7 @@
           .col-lg-auto
             img(src="@/assets/curso/tema2/25.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Cada una de estas políticas demuestra cómo una decisión del Estado se transforma en acciones concretas, contribuyendo a mejorar la calidad de vida y fortalecer el tejido social y productivo de los territorios rurales.
+            p.mb-0 De esta manera, los tres niveles de gobierno se complementan: el nivel local es el más cercano a la comunidad y atiende sus necesidades inmediatas; el nivel regional integra y coordina esfuerzos territoriales; y el nivel nacional proporciona dirección estratégica, financiamiento y garantías de derechos.
        
     
 

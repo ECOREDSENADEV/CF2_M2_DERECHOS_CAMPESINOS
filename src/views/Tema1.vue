@@ -35,26 +35,26 @@
         TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="Sociales" :icono="require('@/assets/componentes/2.svg')")
             .row.align-items-center.p-4
-              .col-md-7.mb-4.mb-md-0.order-2
+              .col-lg-7.mb-4.mb-md-0.order-2
                 h4 Sociales
                 p.mb-0 Buscan garantizar derechos básicos como salud, educación, vivienda y protección social. Su objetivo es mejorar la calidad de vida, reducir desigualdades y atender a poblaciones vulnerables.
-              .col-md-5.mb-4.mb-md-0.order-1
+              .col-lg-5.mb-4.mb-md-0.order-1
                 figure
                   img(src='@/assets/curso/tema1/3.png', alt='Texto que describa la imagen')
           .py-4.py-md-5(titulo="Económicas" :icono="require('@/assets/componentes/3.svg')")
             .row.align-items-center.p-4
-              .col-md-7.mb-4.mb-md-0.order-2
+              .col-lg-7.mb-4.mb-md-0.order-2
                 h4 Económicas
                 p.mb-0 Se enfocan en regular la producción, el empleo, los precios, los impuestos y el comercio. Su impacto recae en la actividad productiva y en el acceso a oportunidades económicas para distintos sectores, incluyendo el campesinado.
-              .col-md-5.mb-4.mb-md-0.order-1
+              .col-lg-5.mb-4.mb-md-0.order-1
                 figure
                   img(src='@/assets/curso/tema1/4.png', alt='Texto que describa la imagen')
           .py-4.py-md-5(titulo="Ambientales" :icono="require('@/assets/componentes/4.svg')")
             .row.align-items-center.p-4
-              .col-md-7.mb-4.mb-md-0.order-2
+              .col-lg-7.mb-4.mb-md-0.order-2
                 h4 Ambientales
                 p.mb-0 Orientadas a proteger los recursos naturales, promover el uso sostenible del territorio y enfrentar los efectos del cambio climático. Contribuyen al equilibrio ecológico y la sostenibilidad.
-              .col-md-5.mb-4.mb-md-0.order-1
+              .col-lg-5.mb-4.mb-md-0.order-1
                 figure
                   img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
     
